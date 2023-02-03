@@ -1,0 +1,342 @@
+{
+  "id": "b87b0b84-62e4-4ec7-9c1c-4c870979d174",
+  "version": "2.0",
+  "name": "DeleteAccount",
+  "url": "https://demo.guru99.com/V1/html/deleteAccountInput.php",
+  "tests": [{
+    "id": "eb1d6fcc-e865-491a-93d3-a75a69bb1a7f",
+    "name": "DA1",
+    "commands": [{
+      "id": "5e5188b9-369d-487b-ab6c-7981331e0b87",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/deleteAccountInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2db6350-ae38-4468-b395-85c09a5cbf36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "528b5213-ec3a-4982-a6e3-3a5aa34da8b0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4755b57a-f608-4c57-8b4a-d64466d20ed5",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81194877-b20a-4030-92f9-34750d43af04",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ab1d401-c5d3-4faa-8722-ca1420244cb9",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Account Number must not be blank"
+    }, {
+      "id": "14f51b9d-8b2e-4baf-9cc0-5d6cc1b3f794",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "18640579-b2d4-4c4e-a8cb-f446e1030a62",
+    "name": "DA2",
+    "commands": [{
+      "id": "6af59aa3-97f8-480d-9b86-2e877cca631c",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/deleteAccountInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "409e55ea-ddb6-4de0-b8fe-e8dedcae900e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1640a2fc-d609-4d25-ac54-d6c3a6576ae1",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b57006ad-3418-412f-bf36-08c62d1a022d",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AccountNo"
+    }, {
+      "id": "169d67c6-478c-4edc-a7af-53fd3b11398c",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "122b76d8-5196-4ec5-b094-2412df416901",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Characters are not allowed"
+    }, {
+      "id": "31e94805-9ca7-4d2c-b90b-69808297eb0c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "07a63720-9229-44b3-ba9a-0b275a008bba",
+    "name": "DA3",
+    "commands": [{
+      "id": "a9c0f415-b6d0-4b00-a761-873b2f78dac1",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/deleteAccountInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d15b8a8-e754-4fb2-a8ca-08d6575e40a2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26e9b478-e4e1-4309-a58d-21a9a7f47a57",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca8b72f-079b-48ad-87a3-98a5ae41c6d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12345!#"
+    }, {
+      "id": "d687439e-f2bd-4500-bf60-3a33a1dd0a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c99b84-3d7c-4663-b434-169caea87c3e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Special characters are not allowed"
+    }, {
+      "id": "a2e02ccd-486f-4b84-ab93-87ffdd06af65",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "31228def-f982-4dff-a532-77cd1dfdbdf7",
+    "name": "DA4",
+    "commands": [{
+      "id": "dbc7ac2f-0c74-46fc-8da2-c2dc19dcaecf",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/deleteAccountInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc28c42d-528a-4790-8d9d-9acf9bee6376",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91976576-eeee-4bce-871e-796168132b81",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f82309f4-3029-43e5-8023-1c26b48da950",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123 567"
+    }, {
+      "id": "2f31d384-9c6a-4489-9edc-2de90bf03c96",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e24a10c-2991-43c9-a6a7-83d536004b49",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Characters are not allowed"
+    }, {
+      "id": "d3075300-592e-4151-b0e0-b50786ee0ac4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "68daa427-69f7-420c-bf79-be7066df1047",
+    "name": "DA5",
+    "commands": [{
+      "id": "56fda360-1d04-43c5-89e9-c50f9c7b1f28",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/deleteAccountInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66d3dcc2-1792-4cc9-8772-e25286f98eb5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45987110-4ef1-4cde-bde7-3d46f4ba7f57",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b62ebf-4a1f-410c-a630-9e1d80bf09cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " 123456"
+    }, {
+      "id": "f62c58c8-db7c-437d-af1c-786d3662b55b",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee3fa55-8a55-49a2-a6f1-77a482eda78f",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "First character can not be space"
+    }, {
+      "id": "c0d09c41-a014-4286-a108-fb86b92cc2ac",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c575d526-dd35-4a19-9087-1152bb3557f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb1d6fcc-e865-491a-93d3-a75a69bb1a7f"]
+  }],
+  "urls": ["https://demo.guru99.com/V1/html/deleteAccountInput.php"],
+  "plugins": []
+}

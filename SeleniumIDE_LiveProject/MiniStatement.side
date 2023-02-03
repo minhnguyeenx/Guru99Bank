@@ -1,0 +1,335 @@
+{
+  "id": "984ae2c5-c435-4a04-8e0a-ecb94638910f",
+  "version": "2.0",
+  "name": "MiniStatement",
+  "url": "https://demo.guru99.com/V1/html/MiniStatementInput.php",
+  "tests": [{
+    "id": "14a0644d-4ee8-46d8-b0ac-a2043c77099c",
+    "name": "MS2",
+    "commands": [{
+      "id": "dd69795a-a9e5-4a30-a791-5ae007f851b3",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/MiniStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "729780af-883a-459c-a912-a4cc7e72d039",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "537ce47f-9f58-4fee-97a8-76d0fa4529c7",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca193d0-2a89-4d8c-88c3-811c51a6ce6f",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "AccountNum"
+    }, {
+      "id": "389e89fb-faec-4931-acd8-3fd34bb5a25f",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "128396bb-8ecc-400a-8ead-89d8808c061a",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Characters are not allowed"
+    }, {
+      "id": "e7008eff-8867-4fd7-83c6-ecf55228c0de",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "650c3344-c10a-4c96-8723-146becc99c83",
+    "name": "MS1",
+    "commands": [{
+      "id": "2a7cc056-247e-4167-9bd5-408c3fad843c",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/MiniStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b02bf63c-1386-42ea-80f4-c5ec6015c063",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d3ba53d-80bf-4c93-95c4-898d01075743",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd83a44-c6af-4c0e-aba6-4c901de5a139",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2716c21b-2fa8-4784-b044-a098801af19d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Account Number must not be blank"
+    }, {
+      "id": "ba78ad98-0187-40a3-8cc0-f35720a4361d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "129b6a50-5b65-4ee0-84a5-0a037214e4b0",
+    "name": "MS3",
+    "commands": [{
+      "id": "3257c22d-3481-4a43-af8c-9282e22c4f27",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/MiniStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3269ff17-65d1-417b-878a-88189d2e8118",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed1c2201-7fe6-4d31-83d9-f30c877dbef9",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7a65c55-8fb8-4b3d-abe4-cf61a708472b",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12345!#"
+    }, {
+      "id": "01890441-d091-438f-8caf-146856b28b13",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db07485a-e30a-49c3-92ab-9007e758ceb6",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Special characters are not allowed"
+    }, {
+      "id": "8b4c3cd0-1c0b-4a8b-93e2-d302c046016e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ac7d881a-a12b-4bd0-92b3-63993674b933",
+    "name": "MS4",
+    "commands": [{
+      "id": "ea41d9b6-4540-4f3b-95c1-82405a8b2eb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/MiniStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed239029-2695-4cae-9dd6-67f595f398e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd4e19e1-6de9-4216-afd5-8a8244615472",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb454c3-d8a8-42e4-ae2d-0bd6fda5a226",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123 567"
+    }, {
+      "id": "b92c342c-659b-4530-91d2-0b8fc3e33432",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa2ad441-0aa2-4b83-8152-b42aa93a0110",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "Characters are not allowed"
+    }, {
+      "id": "13949e04-46ec-45a6-be0d-73d482422374",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a4f300a-6102-4185-9f92-e8d3ff277aec",
+    "name": "MS5",
+    "commands": [{
+      "id": "d5c692be-b9da-42f2-902a-12fee05a7cb9",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.guru99.com/V1/html/MiniStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "129e233c-6625-47ac-b46c-0e52a4699226",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97d617c6-f7fc-4c08-8578-7ab62a8f32e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3adab7fb-b7eb-49ab-8d44-d00253d144c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " 123456"
+    }, {
+      "id": "af16a2f4-cbbf-4c1d-bbce-4fec4207ecef",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div:nth-child(3) > div",
+      "targets": [
+        ["css=body > div:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "405483b2-e0dd-406f-a85d-ada806d6b1a2",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=message2",
+      "targets": [],
+      "value": "First character can not be space"
+    }, {
+      "id": "d7352244-dd9e-4fd8-80e7-4cf57573d76f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "93c273c6-3830-4389-bfa0-0a54985cdd6b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["14a0644d-4ee8-46d8-b0ac-a2043c77099c"]
+  }],
+  "urls": ["https://demo.guru99.com/V1/html/MiniStatementInput.php"],
+  "plugins": []
+}
